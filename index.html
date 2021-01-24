@@ -6,58 +6,94 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Miriam Haenle</title>
   </head>
+
   <body>
     <header class="header">
-      <div class="header__name">
+      <div class="header__intro">
         <h1>Miriam Haenle</h1>
-        <p>On my quest to becoming a frontend yedi</p>
+        <p>Web Developer | Project Manager | Agile Enthusiast</p>
       </div>
 
       <nav class="header__navigation">
         <ul>
           <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#bio">Bio</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
 
-    <main class="main__container">
+    <main>
       <section id="about" class="about">
         <h2>About</h2>
-        <div class="img--container">
+        <article class="about__intro">
+          <h3>This is me</h3>
           <div class="about__img">
-            <img src="images/IMG_1556.jpg" alt="Image of me" />
+            <div class="about__img--container">
+              <img src="images/IMG_1556.jpg" alt="Image of me" />
+            </div>
+            <div class="about__img--filter">
+              <img src="images/background-three.jpg" alt="Image of me" />
+            </div>
           </div>
-          <div class="about__img--filter">
-            <img src="images/background-three.jpg" alt="Image of me" />
-          </div>
-        </div>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore fuga
-          minima aspernatur dolore corrupti cum fugit, assumenda modi
-          perferendis libero quasi repellat qui vitae unde eaque eligendi nulla.
-          Atque vel voluptas numquam ex odit quam quisquam vitae deserunt
-          perferendis provident.
-        </p>
-      </section>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
+            fuga minima aspernatur dolore corrupti cum fugit, assumenda modi
+            perferendis libero quasi repellat qui vitae unde eaque eligendi
+            nulla. Atque vel voluptas numquam ex odit quam quisquam vitae
+            deserunt perferendis provident.
+          </p>
+        </article>
 
-      <section id="portfolio" class="portfolio">
-        <h2>Portfolio</h2>
-        <div>
-          <a href="https://capstone-project-c74dc.web.app/home/add-trip">
-            <img src="images/Welcome.png" alt="" />Carbon & Lactate
-          </a>
-        </div>
+        <article>
+          <h3>
+            Skills
+            <ul>
+              <li>Web Development</li>
+              <li>Project Management</li>
+              <li>Scrum Master</li>
+              <li>Lean Startup Enthusiast</li>
+              <li>Backend</li>
+              <li>Coaching</li>
+            </ul>
+          </h3>
+        </article>
       </section>
 
       <section id="bio" class="bio">
         <h2>Bio</h2>
         <ul>
           <li>Junior Web Developer & Coach, neuefische GmbH</li>
+          <li>neuefische Bootcamp</li>
           <li>Project Manager, umwerk GmbH</li>
           <li>Working Student, Chefkoch GmbH</li>
         </ul>
+      </section>
+
+      <section id="portfolio" class="portfolio">
+        <h2>Portfolio</h2>
+        <div>
+          <h4>Carbon & Lactate</h4>
+          <a
+            href="https://capstone-project-c74dc.web.app/home/add-trip"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="images/capstone-project.png" alt="" />
+          </a>
+          <a
+            href="https://capstone-project-c74dc.web.app/home/add-trip"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="button"
+            >Check it out</a
+          >
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
       </section>
     </main>
 
